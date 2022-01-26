@@ -1,0 +1,157 @@
+@import "reset.css";
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: skyblue;
+}
+.colortoto {
+  margin: 5px;
+  background-color: white;
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 50px 30px;
+}
+
+.playlist__title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.playlist i {
+  font-size: 36px;
+}
+
+.randomlove__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.randomlove__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #ffbd11;
+  color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.randomlove__img i {
+  font-size: 60px;
+}
+
+.randomlove__text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+.randomlove__text span:first-child {
+  width: 50px;
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.randomlove__text span:last-child {
+  line-height: 55px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-icons__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn-icons__img i:not(.fa-play) {
+  font-size: 30px;
+}
+
+.btn-icons__img button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin: 0px 30px;
+  border-width: 2px 2px 5px 2px;
+}
+.btn-icons__img button:first-child {
+  width: 150px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.btn-icons__img button:first-child i {
+  margin-right: 10px;
+}
+
+.list {
+  padding: 25px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.matargasti__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #f85a2a;
+}
+
+.list__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.list__text span:first-child {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.list__text span:last-child {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.attitude__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #ff89bb;
+}
+
+.tryeverthing__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #1847e5;
+}
+
+.snflower__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #00c6ad;
+}

@@ -71,7 +71,6 @@
   height: 150px;
   background-color: #ffffff;
 }
-/* animation: bbbb 1s ease-in-out infinite; */
 
 .block div:first-child {
   animation: bbbb 1s ease-in-out infinite;
