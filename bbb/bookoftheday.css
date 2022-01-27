@@ -1,0 +1,79 @@
+.main__BookOfTheDay {
+  width: 500px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.main__BookOfTheDay__bigtitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main__BookOfTheDayCover {
+  display: flex;
+}
+.main__BookOfTheDayCover img {
+  width: 160px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.main__info {
+  width: 280px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__BookOfTheDayInfo__title {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+.main__BookOfTheDayInfo__title span:first-child {
+  font-size: 24px;
+  font-weight: 500;
+}
+.main__BookOfTheDayInfo__title span:last-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.main__BookOfTheDayInfo__star {
+  margin: 5px 0px;
+  color: #ffcd33;
+}
+
+.main__BookOfTheDayInfo__star span:last-child {
+  margin: 5px 0px;
+  color: rgba(0, 0, 0, 0.06);
+}
+
+.main__BookOfTheDayInfo__reference {
+  display: flex;
+  justify-content: space-around;
+  padding: 28px 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main__BookOfTheDayInfo__btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__BookOfTheDayInfo__btn button:first-child {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #ffcd33;
+}
+
+.main__BookOfTheDayInfo__btn button:last-child {
+  width: 140px;
+  height: 40px;
+  color: white;
+  border-radius: 8px;
+  background-color: black;
+}

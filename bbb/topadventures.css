@@ -1,0 +1,51 @@
+.main__TopAdventures {
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main__TopAdventures__bigtitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main__TopAdventures img {
+  width: 120px;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.main__TopAdventures__books {
+  display: flex;
+  width: 500px;
+  overflow-x: auto;
+}
+
+.books__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.main__TopAdventures__books i {
+  font-size: 12px;
+  margin: 20px 4px;
+  color: #ffcd33;
+}
+
+.books__img:nth-child(3) i:last-child {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.books__img:nth-child(4) i:not(:first-child) {
+  color: rgba(0, 0, 0, 0.1);
+}
+.books__img:nth-child(5) i:not(:first-child, :nth-child(2), :nth-child(3)) {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.books__img:nth-child(6) i:not(:first-child, :nth-child(2)) {
+  color: rgba(0, 0, 0, 0.1);
+}

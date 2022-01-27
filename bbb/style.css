@@ -1,0 +1,62 @@
+@import "reset.css";
+@import "bookoftheday.css";
+@import "topAdventures.css";
+@import "popularAuthors.css";
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-part__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffce33;
+  padding: 50px 15px 70px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.header-part-search {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.header__search input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  box-shadow: -30px 0px white, 45px 0px white;
+  border-radius: 25px;
+  outline: none;
+}
+.header__search input::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.main-part {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 100vh;
+}
