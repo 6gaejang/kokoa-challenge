@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap");
+@import "listpart.css";
+@import "playpart.css";
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+div,
+span,
+h2,
+button {
+  margin: 0;
+  border: none;
+}
+
+i,
+button {
+  cursor: pointer;
+}
+
+.two-part {
+  margin: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top__navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 30px;
+  color: rgba(0, 0, 0, 0.7);
+}
